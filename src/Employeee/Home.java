@@ -60,3 +60,53 @@ class Home  implements ActionListener{
         b4.setForeground(new Color(0,0,0));
     	b4.setBackground(new Color(255,255,255));
         l1.add(b4);
+
+        b6=new JButton(" EXIT ");
+        b6.setBounds(440,200,150,40);
+        b6.setFont(new Font("serif",Font.BOLD,15));
+        b6.addActionListener(this);
+        b6.setForeground(Color.red);
+    	b6.setBackground(new Color(255,255,255));
+        l1.add(b6);
+
+        f.setVisible(true);
+        f.setSize(700,400);
+        f.setLocation(400,200);
+
+    }
+
+    public void actionPerformed(ActionEvent ae){
+        if(ae.getSource()==b1){
+            f.setVisible(false);
+           new employers();
+        }
+        if(ae.getSource()==b2){
+            f.setVisible(false);
+            new salarybox();
+        }
+        if(ae.getSource()==b3){
+            f.setVisible(false);
+            new attendancebox();
+        }
+        
+        if(ae.getSource()==b4){
+            f.setVisible(false);
+            new AboutUs().setVisible(true);	
+        }
+        
+       /* if(ae.getSource()==b5){
+            f.setVisible(false);
+             new contact(); 
+        }*/
+        
+        if(ae.getSource()==b6){
+            f.setVisible(false);
+           System.exit(0);
+        }
+        
+    }
+
+    public static void main(String[ ] arg){
+        new Home();
+    }
+}
