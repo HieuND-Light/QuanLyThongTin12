@@ -78,19 +78,19 @@ class Home  implements ActionListener{
     public void actionPerformed(ActionEvent ae){
         if(ae.getSource()==b1){
             f.setVisible(false);
-           new employers();
+//           new employers();
         }
         if(ae.getSource()==b2){
             f.setVisible(false);
-            new salarybox();
+//            new salarybox();
         }
         if(ae.getSource()==b3){
             f.setVisible(false);
-            new attendancebox();
+//            new attendancebox();
         }
         
         if(ae.getSource()==b4){
-            f.setVisible(false);
+//            f.setVisible(false);
             new AboutUs().setVisible(true);	
         }
         
