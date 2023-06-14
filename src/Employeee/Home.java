@@ -82,7 +82,7 @@ class Home  implements ActionListener{
         }
         if(ae.getSource()==b2){
             f.setVisible(false);
-//            new salarybox();
+            new salarybox();
         }
         if(ae.getSource()==b3){
             f.setVisible(false);
