@@ -86,7 +86,7 @@ class employers  implements ActionListener{
         }
         if(ae.getSource()==b3){
             f.setVisible(false);
-//            new Search_Employee();
+            new Search_Employee();
         }
         
         if(ae.getSource()==b4){
