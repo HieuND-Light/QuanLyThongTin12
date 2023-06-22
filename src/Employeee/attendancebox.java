@@ -59,7 +59,7 @@ class attendancebox implements ActionListener{
     public void actionPerformed(ActionEvent ae){
         if(ae.getSource()==b1){
             f.setVisible(false);
-//            new Attendance();
+            new Attendance();
         }
         if(ae.getSource()==b2){
             f.setVisible(true);
