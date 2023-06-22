@@ -86,7 +86,7 @@ class Home  implements ActionListener{
         }
         if(ae.getSource()==b3){
             f.setVisible(false);
-//            new attendancebox();
+            new attendancebox();
         }
         
         if(ae.getSource()==b4){
