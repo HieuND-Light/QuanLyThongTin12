@@ -8,7 +8,7 @@ import java.sql.*;
 class Print_Data implements ActionListener{
     JFrame f;
     JLabel id8,id,aid,id1,aid1,id2,aid2,id3,aid3,id4,aid4,id5,aid5,id6,aid6,id7,aid7,id9,id10,id11,id12,id13,id14,id15,id16,id17,lab;
-    String emp_id,name,father,address,phone,email,education,post,age,dob,aadhar;
+    String emp_id,name,father,address,phone,email,education,post,age,dob,citizenid;
     JButton b1,b2;
     ImageIcon icon;
 
@@ -30,7 +30,7 @@ class Print_Data implements ActionListener{
                 email = rs.getString("email");
                 education = rs.getString("education");
                 post = rs.getString("post");
-                aadhar = rs.getString("aadhar");
+                citizenid = rs.getString("aadhar");
                 emp_id = rs.getString("emp_id");
             }
         }catch(Exception e){

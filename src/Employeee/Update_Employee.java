@@ -100,7 +100,7 @@ class Update_Employee extends Add_Employee implements ActionListener{
         t7.setBounds(200,250,150,30);
         id15.add(t7);
 
-        id9= new JLabel("Aadhar No:");
+        id9= new JLabel("Citizen ID:");
         id9.setBounds(400,250,100,30);  
         id9.setFont(new Font("serif",Font.BOLD,20));
         id15.add(id9);
