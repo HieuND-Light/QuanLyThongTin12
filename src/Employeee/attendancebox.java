@@ -63,7 +63,7 @@ class attendancebox implements ActionListener{
         }
         if(ae.getSource()==b2){
             f.setVisible(true);
-//          new Attendanceview().setVisible(true);
+          new Attendanceview().setVisible(true);
         }
         
         if(ae.getSource()==b5){
