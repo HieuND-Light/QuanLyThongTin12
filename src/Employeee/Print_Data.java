@@ -30,7 +30,7 @@ class Print_Data implements ActionListener{
                 email = rs.getString("email");
                 education = rs.getString("education");
                 post = rs.getString("post");
-                citizenid = rs.getString("aadhar");
+                citizenid = rs.getString("citizenid");
                 emp_id = rs.getString("emp_id");
             }
         }catch(Exception e){
